@@ -127,7 +127,7 @@ const UserProfilePage = () => {
             <p
               className={`${
                 toggleAbout && "text-purple-1 border-b-2 border-purple-1"
-              } pb-1`}
+              } cursor-pointer pb-1`}
               onClick={() => {
                 setToggleAbout(true);
                 setToggleEvents(false);
@@ -138,7 +138,7 @@ const UserProfilePage = () => {
             <p
               className={`${
                 toggleEvents && "text-purple-1 border-b-2 border-purple-1"
-              } pb-1`}
+              }  cursor-pointer pb-1`}
               onClick={() => {
                 setToggleEvents(true);
                 setToggleAbout(false);
@@ -149,7 +149,7 @@ const UserProfilePage = () => {
             <p
               className={`${
                 toggleBookmarks && "text-purple-1 border-b-2 border-purple-1"
-              } pb-1`}
+              }  cursor-pointer pb-1`}
               onClick={() => {
                 setToggleBookmarks(true);
                 setToggleAbout(false);

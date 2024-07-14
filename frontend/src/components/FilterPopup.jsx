@@ -125,7 +125,7 @@ const FilterPopup = ({
     <>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <div
-          className={`fixed bottom-0 z-20 bg-white w-full h-[80%] rounded-tl-[15px] rounded-tr-[15px] p-4 transition-transform duration-500 ease-in-out transform overflow-auto ${
+          className={` max-w-[480px] fixed bottom-0 z-20 bg-white  h-[80%] rounded-tl-[15px] rounded-tr-[15px] p-4 transition-transform duration-500 ease-in-out transform overflow-auto ${
             isVisible && !isHiding
               ? "translate-y-0 opacity-100"
               : "translate-y-full opacity-0"

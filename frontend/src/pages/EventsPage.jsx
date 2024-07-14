@@ -32,7 +32,7 @@ const EventsPage = () => {
 
   return (
     <div className="h-svh">
-      <div className="pb-14 px-2">
+      <div className=" px-2 pb-28">
         <h1 className="py-8 text-center font-roboto-bold text-xl">
           <span className="text-green-1">Your</span> registrations
         </h1>
